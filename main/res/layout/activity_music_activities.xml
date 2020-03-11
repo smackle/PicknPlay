@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OneFragment"
+    android:background="#db0505">
+
+    <TextView
+        android:id="@+id/mvm"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:background="#000000"
+        android:focusable="false"
+        android:fontFamily="serif-monospace"
+        android:text="Music that Suits you"
+        android:textColor="#fffefe"
+        android:textSize="24dp" />
+
+    <EditText
+
+        android:id="@+id/mcname"
+        android:layout_width="296dp"
+        android:layout_height="52dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="242dp"
+        android:background="@drawable/edittextfile"
+        android:ellipsize="start"
+        android:gravity="center"
+        android:hint="TRY YOUR NAME"
+        android:inputType="text"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/mcbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="187dp"
+        android:background="#ffd943"
+        android:text="Check it" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="178dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/musicbac" />
+
+    <Button
+        android:id="@+id/topercent2"
+        android:layout_width="53dp"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:drawableTop="@drawable/icon"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="172dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/ipr" />
+
+    <TextView
+        android:id="@+id/msprc"
+        android:layout_width="87dp"
+        android:layout_height="54dp"
+        android:layout_above="@+id/topercent2"
+
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="131dp"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed"/>
+
+
+</RelativeLayout>

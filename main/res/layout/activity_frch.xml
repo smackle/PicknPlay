@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".frch"
+    android:background="#ffffff">
+
+    <EditText
+        android:id="@+id/yname"
+        style="@style/Widget.AppCompat.Light.AutoCompleteTextView"
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="227dp"
+        android:background="#e93333"
+        android:ems="10"
+        android:hint="             Your Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="169dp"
+        android:background="#fff127"
+        android:ems="10"
+        android:hint="             Friend's Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/fndbtn"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="78dp"
+        android:background="@drawable/roundbtn"
+        android:text="Press" />
+
+    <TextView
+        android:id="@+id/tview"
+        android:layout_width="284dp"
+        android:layout_height="39dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:background="#5dd6ff"
+        android:hint="                  Friendship "
+        android:textSize="24dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="383dp"
+        android:layout_height="288dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/friends" />
+
+</RelativeLayout>

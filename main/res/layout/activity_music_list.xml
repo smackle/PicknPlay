@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MusicList"
+    android:background="#f45708">
+
+
+
+
+    <TextView
+        android:id="@+id/tpop"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Time for You to Listen some of the best pop Song. Click that image and POP it up."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tind"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Indian song have a different level of feeling. Click the image and feel it."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/thiphop"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Well, hip-hop is what makes the world go around. Click the image for the best HIP-HOP songs.  "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/trock"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Good fashion is like rock music: all anarchy and revolt.Click the image and ROCK it up. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tedm"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text=" I love a lot of different styles, but my heart belongs in electronic music. Click the image and Dance it off."
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/pop"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="85dp"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/ppppp" />
+
+    <ImageButton
+        android:id="@+id/rock"
+        android:layout_width="371dp"
+        android:layout_height="254dp"
+        android:layout_alignBottom="@+id/pop"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/rock"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/edm"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/rock"
+        android:layout_marginStart="0dp"
+        app:srcCompat="@drawable/edm"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/hiphop"
+        android:layout_width="377dp"
+        android:layout_height="248dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        app:srcCompat="@drawable/hiphop"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/india"
+        android:layout_width="366dp"
+        android:layout_height="238dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        app:srcCompat="@drawable/tseries"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>

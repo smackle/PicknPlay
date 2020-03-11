@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieList"
+    android:background="#000000">
+
+    <ImageButton
+        android:id="@+id/comedy"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:srcCompat="@drawable/comedy"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/horror"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:srcCompat="@drawable/horror"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/romance"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:srcCompat="@drawable/romance"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/fantasy"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:srcCompat="@drawable/fantasy"
+        android:visibility="invisible"/>
+
+    <ImageButton
+        android:id="@+id/superhero"
+        android:layout_width="match_parent"
+        android:layout_height="213dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="89dp"
+        app:srcCompat="@drawable/superhero"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/tcom"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Looks like you love comedy genre movies. Here we have the collection for You. Just click the image. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/thor"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="So, You like the scary ones.Here we have the collection for You. Just click the image. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/trom"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Looks like Someone is in Love. Here we have the collection for You. Just click the image. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tfan"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Fantasies makes everyone happy. Here we have the collection for You. Just click the image. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+    <TextView
+        android:id="@+id/tsup"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="cursive"
+        android:text="Wanna fell like a Superhero. Here we have the collection for You. Just click the image. "
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="24dp"
+        android:visibility="invisible"/>
+
+</RelativeLayout>
