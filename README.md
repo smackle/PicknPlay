@@ -1,2 +1,2 @@
 # PicknPlay
-An android app which suggests/recommends the user various genres of movies and music based on his personal informations.
+An android app which suggests/recommends user various genres of movies and music based on their personal informations.
